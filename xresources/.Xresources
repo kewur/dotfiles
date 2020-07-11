@@ -6,20 +6,20 @@
 ! b3 = 70%
 ! 80 = 50%
 
-rofi.line-margin: 20
-rofi.fullscreen: true
+rofi.line-margin: 5
+rofi.fullscreen: false
 rofi.color-enabled: true
 rofi.color-window: argb:DA222222, argb:DA222222, argb:00222222
 rofi.color-normal: argb:00000000, #e8e8e8, argb:00000000, argb:00000000, #E918D8
 rofi.color-urgent: argb:00000000, #E918D8, argb:00000000, argb:00000000, #e29a49
 rofi.color-active: argb:00000000, #E918D8, argb:00000000, argb:00000000, #e29a49
-rofi.font: TamzenForPowerline:antialias=true 14
+rofi.font: DejaVuSansMono_Nerd_Font_Book:antialias=true 14
 rofi.eh: 2
 rofi.separator-style: solid
 rofi.hide-scrollbar: true
 rofi.lines: 7
 rofi.width: 50
-rofi.padding: 200
+rofi.padding: 50
 rofi.bw: 0
 rofi.auto-select: false
 rofi.fuzzy: true
@@ -64,15 +64,11 @@ URxvt.perl-ext-common:
 
 !! Fonts
 !! regular
-URxvt*.font: \
-              xft:Iosevka:size=16:antialias=true, \
-              xft:Source Code Pro:size=14:antialias=true, \
-              xft:TerminessTTF Nerd Font:size=14:antialias=true, \
-              xft:Unifont:size=14:antialias=false
+URxvt*.font: xft:FiraCode Nerd Font Mono:size=12:antialias=true
               
                       
 URxvt.allow_bold:           false
-URxvt*boldMode:             true
+URxvt*boldMode:             false
 
 ! Fix font space
 URxvt*letterSpace:          0
@@ -111,3 +107,4 @@ urxvt*color12: #c89d9d
 urxvt*color13: #a1cbdb
 urxvt*color14: #c8867e
 urxvt*color15: #9eabc8
+z

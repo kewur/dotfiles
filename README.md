@@ -27,7 +27,6 @@ Previous themes can be found on [reddit](https://www.reddit.com/r/unixporn/searc
 
 ### Optional
 * [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen) (fancy lockscreen)
-* [mopidy](https://www.mopidy.com/)
 * [mons](https://github.com/Ventto/mons)
 * [compton](https://github.com/chjj/compton)
 * [dunst](https://github.com/dunst-project/dunst)
@@ -75,7 +74,6 @@ Or to install all my dotfiles config:
 
     cd ~/.dotfiles && \
       stow i3 && \
-      stow mopidy && \
       stow cava && \
       stow ncmpcpp && \
       stow git && \
