@@ -21,8 +21,11 @@ super + alt + r
 super + g
 	google-chrome-stable
 
-super + f
+super + t
 	thunar
+
+super + s
+    spotify
 
 alt + p
  rofi -show
