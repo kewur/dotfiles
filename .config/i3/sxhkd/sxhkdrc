@@ -21,11 +21,14 @@ super + alt + r
 super + g
 	google-chrome-stable
 
-super + t
+super + f
 	thunar
 
+super + c
+	discord
+
 super + s
-    spotify
+	spotify
 
 alt + p
  rofi -show
@@ -37,6 +40,9 @@ super + w
 
 ctrl + alt + s
     flameshot gui
+
+super + t
+	thunar
 
 
 #Audio Keybindings
